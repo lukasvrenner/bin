@@ -1,5 +1,5 @@
 #! /bin/sh
-date=`date +%d/%m/%Y_%H:%M:%S`
+date=`date +%d-%m-%Y_%H:%M:%S`
 file_name=~/Pictures/screenshots/recording@"$date".mp4
 chosen=$(printf "Area\nWindow\nScreen" | fuzzel -d -p 'Record: ')
 
