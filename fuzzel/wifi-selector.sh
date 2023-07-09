@@ -35,8 +35,8 @@ fi
 
 # HOPEFULLY you won't need this as often as I do
 # If there are more than 8 SSIDs, the menu will still only have 8 lines
-if [ "$LINENUM" -gt 8 ] && [[ "$CONSTATE" =~ "enabled" ]]; then
-	LINENUM=8
+if [ "$LINENUM" -gt 9 ] && [[ "$CONSTATE" =~ "enabled" ]]; then
+	LINENUM=9
 elif [[ "$CONSTATE" =~ "disabled" ]]; then
 	LINENUM=1
 fi
